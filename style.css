@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap');
+*
+{
+    font-family: 'Space Mono';
+    color: #b8c1ec;
+}
+body
+{
+    font-family: 'Space Mono';
+    font-family: Tiny5;
+    margin: 0;
+    padding: 0;
+    background-color: #232946;
+    
+}
+.header
+{
+    background-color: #eebbc3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo
+{
+    border: 1px solid black;
+    border-radius: 90%;
+    align-self: center;
+    overflow: auto;
+    box-shadow: 2.5px 2.5px #4c1e7a;
+
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
+.header h1
+{
+    color: #232946;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 1px #232946;
+}
+.header ul
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+    align-self: center;
+    margin-right: 10px;
+}
+.header li{
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 1px #232946;
+
+}
+.header ul a{
+    text-decoration: none;
+    color: #232946;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* ---------------------------------- */
+
+.header-content
+{
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+    gap: 20px; 
+    background-color: #232946;
+    min-height: 400px;
+    align-content: center;
+    
+}
+.hader-image
+{
+    display: flex;
+    overflow:hidden;
+    box-shadow: 5px 5px #4c1e7a;
+}
+.hader-image img
+{
+    width: 400px;
+    border: 1px solid #b8c1ec;
+} 
+.head-line
+{
+    font-size: 15px;
+    font-family: 'Space Mono';
+    box-sizing: border-box;
+    background-color: #232946;
+    padding: 10px;
+    display: flex;
+    width: 400px;
+    border: 1px solid #b8c1ec;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 5px 5px #4c1e7a;
+
+}
+.head-line p
+{
+    margin-bottom: auto;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.signup
+{
+    margin-top: auto;
+    font-size: 19px;
+    border: none;
+    border-radius: 3px;
+    background-color: #232946;
+    box-shadow: 5px 5px #4c1e7a;
+    background-color: #eebbc3;
+    color: #232946;
+    height: 50px;
+}
+/* ------------------------------------- */
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: #b8c1ec;
+}
+.title
+{
+    margin: 20px 0;;
+    background-color: #232946;
+    box-shadow: 5px 5px #4c1e7a;
+    padding: 16px;
+    align-self: center;
+    font-weight: 700;
+    font-size: large;
+}
+.cards
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card
+{
+    
+    box-sizing: border-box;
+    font-family: 'Space Mono';
+    border: 1px solid black;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px #4c1e7a;
+    background-color: #fffffe;
+}
+.card h4{
+    color: black;
+}
+.image
+{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.card img
+{
+    width: 300px;
+
+}
+.card .para
+{
+    font-size: 15px;
+    color: #232946;
+}
+/* --------------------------------------------------------- */
+
+.Social-Proof
+{
+    display:flex;
+    border-bottom: 1px solid #b8c1ec;
+    justify-content: center;
+    min-height: 300px; 
+    padding: 16px;
+}
+.container-logo-quote
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    gap: 16px;
+
+}
+.Social-Proof .logo{
+
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 90%;
+    align-self: center;
+    overflow: auto;
+    box-shadow: 5px 5px #4c1e7a;
+    
+}
+.quote
+{
+    border: 1px solid #b8c1ec;
+    box-sizing: border-box;
+    flex-grow: 0.5;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    align-self: center;
+    overflow: hidden;
+    min-height: 200px;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 5px 5px #4c1e7a;
+}
+.signature
+{
+    display: flex;
+    align-items: center;
+}
+/* --------------------------------------------------- */
+.cta-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: center;
+    gap: 100px;
+    background-color: #b8c1ec;
+
+}
+.cta-content-msg
+{
+    background-color: #232946;
+    border: 1px solid black;
+    box-shadow: 5px 5px #4c1e7a;
+    overflow: hidden;
+    width: 500px;
+    padding: 20px;
+
+}
+.cta-container .signup{
+    height: 50px;
+    margin: 0;
+    align-self: center;
+}
+/* ------------------------------------------------- */
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}
+.footer ul
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+    align-self: center;
+    margin-right: 10px;
+}
+.footer  li{
+    box-sizing: border-box;
+    padding: 10px;
+
+    box-shadow: 0px 1px #232946;
+}
+
+.footer ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
